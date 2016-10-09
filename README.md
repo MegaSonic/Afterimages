@@ -17,6 +17,12 @@ ForceStopImages: Immediately turns off the afterimages.
 I recommend mainly using StartImages and StopImages.
 
 
+
+
+
+
+
+
 Customizable options in the Component:
 
 Images to Display: How many afterimages you want to render.
