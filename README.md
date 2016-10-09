@@ -18,10 +18,16 @@ I recommend mainly using StartImages and StopImages.
 
 
 Customizable options in the Component:
+
 Images to Display: How many afterimages you want to render.
+
 Image Color: If you want each afterimage to be one color, you can set it here.
+
 Save Sprites: If off, Afterimages will only save positions and each afterimage will use the main GameObject's current sprite frame. Check this if you want Afterimages to also keep track of the sprite it was at that position. Works best if you have detailed animations.
+
 Delay Between Images: How close together do you want images to be? Note that this runs based on the Update loop, and games will run at a higher framerate/Update rate in builds than in the editor, so you might notice images being a lot closer together in builds.
+
 Positions To Save: Optimization option that lets you specify how many positions in time to save in memory. This should probably be at least Images To Display * Delay Between Images, or things might look weird.
+
 Use Multicolors: Check this if you want each Afterimage to use a different color. If you do, use the Multicolors list to specify each image's color. The Multicolors list's size should be equal to Images To Display or things might break!
 
