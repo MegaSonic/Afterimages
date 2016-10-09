@@ -4,7 +4,7 @@ This Component attempts to replicate an Afterimage effect present in games like 
 
 Put this Component on a moving GameObject with a Sprite Renderer, add a few lines of code, and watch some magic happen. NOTE: This code probably has some bugs, and is not optimized! (Though it will probably work pretty well for whatever you're planning to do with it)
 
-Important functions for you:
+# Important functions for you:
 
 StartImages: starts up the Afterimages effect. Afterimage sprites will appear out from behind the GameObject the component is on (based on Sprite Sorting Order), tracking the object's position. Calling StartImages while Afterimages are active will do nothing.
 
@@ -23,7 +23,7 @@ I recommend mainly using StartImages and StopImages.
 
 
 
-Customizable options in the Component:
+# Customizable options in the Component:
 
 Images to Display: How many afterimages you want to render.
 
